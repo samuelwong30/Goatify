@@ -4,7 +4,7 @@ from tkinter import messagebox
 from goat import *
 
 root = Tk()
-root.title("Goatify")
+root.title("Baby Goats")
 root.geometry('400x250')
 
 
@@ -63,18 +63,18 @@ def from2goto1():
 	d_4.destroy()
 	d_5.destroy()
 	frame2.grid_forget()
-	root.title("Goatify")
+	root.title("Baby Goats")
 	frame1.grid()
 
 # Frame 3 
 def from3goto1():
 	frame3.grid_forget()
-	root.title("Goatify")
+	root.title("Baby Goats")
 	frame1.grid()
 
 def from3add():
 	frame3.grid_forget()
-	root.title("Goatify")
+	root.title("Baby Goats")
 	# Write to file
 	addFriend()
 	frame1.grid()
