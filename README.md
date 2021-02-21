@@ -13,5 +13,7 @@ Requirements: Python 3.9 or higher
 
 # Project Details
 Project Name: Baby Goats
+<br>
 Team Members: Joshua Blas, Samuel Wong
+<br>
 Stormhacks 2021
