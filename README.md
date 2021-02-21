@@ -6,5 +6,7 @@ Requirements: Python 3.9 or higher
 
 - Clone the directory onto your machine
 - In the terminal, in the directory run the command:
-  python3 guigoat.py
+
+    python3 guigoat.py
+ 
 - A GUI should appear for you to use
