@@ -1,5 +1,5 @@
 # Goatify
-A way to keep track of your friends
+A way to keep track of all your friends social media accounts all in one place. Users can search for a particular friend as well as add friends.
 
 # Build Instructions
 Requirements: Python 3.9 or higher
