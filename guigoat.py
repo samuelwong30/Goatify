@@ -5,7 +5,8 @@ from goat import *
 
 root = Tk()
 root.title("Baby Goats")
-root.geometry('400x250')
+root.geometry('400x200')
+
 
 
 def addFriend():
@@ -45,6 +46,9 @@ def searchFriend():
 # Switch Frames
 # Frame 1 
 def from1goto2():
+	if e1_1.get() == "":
+		messagebox.showerror("Error", "Enter a friends name")
+		return
 	frame1.grid_forget()
 	root.title("Friend")
 	frame2.grid()
@@ -64,12 +68,20 @@ def from2goto1():
 	d_5.destroy()
 	frame2.grid_forget()
 	root.title("Baby Goats")
+	e1_1.delete(0, 'end')
 	frame1.grid()
 
 # Frame 3 
 def from3goto1():
 	frame3.grid_forget()
 	root.title("Baby Goats")
+
+	e1_3.delete(0, 'end')
+	e2_3.delete(0, 'end')
+	e3_3.delete(0, 'end')
+	e4_3.delete(0, 'end')
+	e5_3.delete(0, 'end')
+
 	frame1.grid()
 
 def from3add():
@@ -77,6 +89,11 @@ def from3add():
 	root.title("Baby Goats")
 	# Write to file
 	addFriend()
+	e1_3.delete(0, 'end')
+	e2_3.delete(0, 'end')
+	e3_3.delete(0, 'end')
+	e4_3.delete(0, 'end')
+	e5_3.delete(0, 'end')
 	frame1.grid()
 
 
